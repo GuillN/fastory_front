@@ -1,0 +1,13 @@
+.error-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-404 > a {
+    text-decoration: none;
+    border-radius: 1vh;
+    padding: 1vh;
+    background-color: lightsteelblue;
+    color: black;
+}

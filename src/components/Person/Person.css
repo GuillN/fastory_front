@@ -1,0 +1,31 @@
+.card {
+    background-color: lightsteelblue;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 3vh;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    background-color: palevioletred;
+    border-radius: 1vh;
+    padding: 1vh;
+    margin-top: 4vh;
+}
+
+.info {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.basic-info,  .other-info {
+    background-color: palegoldenrod;
+    border-radius: 1vh;
+    padding: 1vh;
+    text-align: left;
+}
